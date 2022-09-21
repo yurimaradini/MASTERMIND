@@ -3,17 +3,14 @@
     <meta charset="UTF-8" />
     <script
       src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
-      defer
-    ></script>
+      defer>
+    </script>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div x-data="{ count: 0 }">
-      <button
-        x-data="{ message: 'I ❤️ Alpine' }"
-        x-text="message"
-        x-on:mouseover="count++"
-      ></button>
-      <span x-text="count"></span>
+    <h1>MASTER-MIND</h1>
+    <div x-data="{ open: false }">
+    
     </div>
   </body>
 </html>
